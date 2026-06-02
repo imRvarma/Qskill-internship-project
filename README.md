@@ -124,15 +124,8 @@ npm run dev
 
 ### 🏠 Home Page
 
-![Home Page](./screenshots/home.png)
-
-### 🌍 Translator App
-
-![Translator](./screenshots/translator.png)
-
-### 🔑 Random String Generator
-
-![Generator](./screenshots/generator.png)
+![Home Page](./src/assets/image.png)
+---
 
 # 👨‍💻 Developed By
 
