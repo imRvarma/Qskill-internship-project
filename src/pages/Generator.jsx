@@ -30,12 +30,12 @@ function Generator() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-r from-cyan-100 to-blue-100 flex justify-center items-center p-6">
+    <div className="min-h-screen bg-gradient-to-r from-purple-200 to-pink-800 flex justify-center items-center p-6">
 
-      <div className="bg-white shadow-2xl rounded-3xl p-8 w-full max-w-3xl">
+      <div className="bg-white shadow-2xl rounded-3xl p-8 w-full max-w-4xl min-h-[650px]">
 
-        <h1 className="text-4xl font-bold mb-8 text-center">
-          🔑 Random String Generator
+        <h1 className="text-5xl font-bold mb-8 text-center">
+          Random String Generator
         </h1>
 
         <label className="font-semibold">
@@ -50,7 +50,7 @@ function Generator() {
           onChange={(e) =>
             setLength(Number(e.target.value))
           }
-          className="w-full border-2 border-gray-300 p-3 rounded-xl mt-2"
+          className="w-full border-2 border-gray-300 p-4 rounded-xl mt-2"
         />
 
         <button
@@ -65,7 +65,7 @@ function Generator() {
             Generated String
           </h2>
 
-          <div className="bg-gray-100 p-4 rounded-xl mt-3 break-all">
+          <div className="bg-gray-100 p-4 rounded-xl mt-3 min-h-[100px] break-all flex items-center">
             {randomString}
           </div>
 

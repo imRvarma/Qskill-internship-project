@@ -55,12 +55,12 @@ function Translator() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-r from-purple-100 to-pink-100 flex justify-center items-center p-6">
+    <div className="min-h-screen bg-gradient-to-r from-purple-200 to-pink-800 flex justify-center items-center p-6">
 
-      <div className="bg-white shadow-2xl rounded-3xl p-8 w-full max-w-4xl">
+      <div className="bg-white shadow-2xl rounded-3xl p-8 w-full max-w-4xl min-h-[650px]">
 
         <h1 className="text-5xl font-bold mb-8 text-center">
-          🌍 Translator App
+          Translator App
         </h1>
 
         <textarea
@@ -119,7 +119,7 @@ function Translator() {
             Translated Text
           </h2>
 
-          <div className="bg-gray-100 p-4 rounded-xl mt-3 min-h-[80px]">
+          <div className="bg-gray-100 p-4 rounded-xl mt-3 min-h-[100px] flex items-center">
             {translated}
           </div>
 

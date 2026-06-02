@@ -3,7 +3,7 @@ function Home() {
     <div className="min-h-screen bg-gradient-to-r from-blue-100 to-purple-100 flex flex-col justify-center items-center p-6">
 
       <h1 className="text-6xl font-bold text-center mb-4">
-        🚀 QSkill Internship Project
+        🚀QSkill Project
       </h1>
 
       <p className="text-2xl text-gray-700 text-center">
@@ -14,7 +14,7 @@ function Home() {
 
         <div className="bg-white p-8 rounded-2xl shadow-xl hover:scale-105 transition">
           <h2 className="text-3xl font-bold mb-4">
-            🌍 Translator App
+            Translator App
           </h2>
 
           <p className="text-gray-600">
@@ -25,7 +25,7 @@ function Home() {
 
         <div className="bg-white p-8 rounded-2xl shadow-xl hover:scale-105 transition">
           <h2 className="text-3xl font-bold mb-4">
-            🔑 Random String Generator
+            Random String Generator
           </h2>
 
           <p className="text-gray-600">
