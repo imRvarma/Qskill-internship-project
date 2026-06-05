@@ -55,9 +55,9 @@ function Translator() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-r from-purple-200 to-pink-800 flex justify-center items-center p-6">
+    <div className="min-h-screen bg-linear-to-r from-purple-200 to-pink-800 flex justify-center items-center p-6">
 
-      <div className="bg-white shadow-2xl rounded-3xl p-8 w-full max-w-4xl min-h-[650px]">
+      <div className="bg-green shadow-2xl rounded-3xl p-8 w-full max-w-4xl min-h-\[700px] flex flex-col z-50">
 
         <h1 className="text-5xl font-bold mb-8 text-center">
           Translator App
@@ -105,14 +105,14 @@ function Translator() {
 
         <br />
 
-        <button
-          onClick={translateText}
-          className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-xl mt-5"
-        >
-          {loading
-            ? "Translating..."
-            : "Translate"}
-        </button>
+        <div className="flex justify-center">
+         <button
+           onClick={translateText}
+           className="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-full mt-5 w-40"
+         >
+           {loading ? "Translating..." : "Translate"}
+         </button>
+       </div>
 
         <div className="mt-8">
           <h2 className="font-bold text-xl">

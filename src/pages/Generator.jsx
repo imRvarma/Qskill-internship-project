@@ -30,9 +30,9 @@ function Generator() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-r from-purple-200 to-pink-800 flex justify-center items-center p-6">
+    <div className="min-h-screen bg-linear-to-r from-purple-200 to-pink-800 flex justify-center items-center p-6">
 
-      <div className="bg-white shadow-2xl rounded-3xl p-8 w-full max-w-4xl min-h-[650px]">
+      <div className="bg-green shadow-2xl rounded-3xl p-8 w-full max-w-4xl min-h-\[700px] flex flex-col z-50">
 
         <h1 className="text-5xl font-bold mb-8 text-center">
           Random String Generator
@@ -52,14 +52,14 @@ function Generator() {
           }
           className="w-full border-2 border-gray-300 p-4 rounded-xl mt-2"
         />
-
-        <button
-          onClick={generateString}
-          className="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-xl mt-5 transition"
-        >
-          Generate
-        </button>
-
+      <div className="flex justify-center">
+  <button
+    onClick={generateString}
+    className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-full mt-5 w-40 shadow-lg transition duration-300 hover:scale-105"
+  >
+    Generate
+  </button>
+</div>
         <div className="mt-8">
           <h2 className="font-bold text-xl">
             Generated String
@@ -71,7 +71,7 @@ function Generator() {
 
           <button
             onClick={copyString}
-            className="bg-green-600 hover:bg-green-700 text-white px-5 py-3 rounded-xl mt-4"
+            className="bg-green-600 hover:bg-green-700 text-white px-5 py-3 rounded-3xl mt-4"
           >
             Copy
           </button>

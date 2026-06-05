@@ -1,6 +1,6 @@
 function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-r from-blue-100 to-purple-100 flex flex-col justify-center items-center p-6">
+    <div className="min-h-screen bg-linear-to-r from-blue-200 to-purple-400 flex flex-col justify-center items-center p-6">
 
       <h1 className="text-6xl font-bold text-center mb-4">
         🚀QSkill Project
@@ -12,7 +12,7 @@ function Home() {
 
       <div className="grid md:grid-cols-2 gap-8 mt-12 w-full max-w-5xl">
 
-        <div className="bg-white p-8 rounded-2xl shadow-xl hover:scale-105 transition">
+        <div className="bg-white p-8 rounded-2xl shadow-xl hover:scale-105 hover:bg-green-200 transition">
           <h2 className="text-3xl font-bold mb-4">
             Translator App
           </h2>
@@ -23,7 +23,7 @@ function Home() {
           </p>
         </div>
 
-        <div className="bg-white p-8 rounded-2xl shadow-xl hover:scale-105 transition">
+        <div className="bg-white p-8 rounded-2xl shadow-xl hover:scale-105 hover:bg-green-200 transition">
           <h2 className="text-3xl font-bold mb-4">
             Random String Generator
           </h2>
