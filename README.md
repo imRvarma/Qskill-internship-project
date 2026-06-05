@@ -128,7 +128,7 @@ npm run dev
 
 ## 🚀 Live Demo
 
-[Click Here to View Live Demo](https://fireship.dev/amiresponsive?url=https://sensational-vacherin-8a69c4.netlify.app/)
+[Click Here to View Live Demo](https://sensational-vacherin-8a69c4.netlify.app/)
 ---
 
 # 👨‍💻 Developed By
